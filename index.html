@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="light">
-    <!-- Theme Toggle Button -->
-    <button id="theme-toggle">Toggle Light/Dark Mode</button>
+    <button id="menu-toggle" class="menu-toggle">☰</button>
  <header>
         <h1>Muhammad Danish</h1>
         <p>Showcasing My Work and Projects</p>
-        
+
     </header>
-    
-    <nav>
+
+    <nav id="sidebar">
         <ul>
-            <li><a href="#about">About Me</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle">Toggle Theme</button></li>
         </ul>
     </nav>
 
@@ -53,7 +53,31 @@
 
         <!-- Portfolio Section -->
        <section id="portfolio" class="portfolio">
-    <h2>Portfolio</h2>
+    <h2>Projects</h2>
+    <div class="portfolio-card">
+        <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project 5">
+        <div class="card-content">
+            <h3>Top 2025 Level Site</h3>
+            <p>A cutting-edge website showcasing advanced web technologies and futuristic design.</p>
+            <a href="https://danishcorder.github.io/Top-2025-level-site/" target="_blank">View Project</a>
+        </div>
+    </div>
+    <div class="portfolio-card">
+        <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project 6">
+        <div class="card-content">
+            <h3>World Wonders</h3>
+            <p>An interactive exploration of the world's most amazing landmarks and natural wonders.</p>
+            <a href="https://danishcorder.github.io/World-Wonders/" target="_blank">View Project</a>
+        </div>
+    </div>
+    <div class="portfolio-card">
+        <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project 7">
+        <div class="card-content">
+            <h3>Data Dashboard</h3>
+            <p>A comprehensive data dashboard for visualizing and analyzing key metrics and insights.</p>
+            <a href="https://danishcorder.github.io/DatadashBoard2/" target="_blank">View Project</a>
+        </div>
+    </div>
     <div class="portfolio-card">
         <img src="https://cdn.pixabay.com/photo/2022/03/15/18/06/portfolio-7070886_1280.png" alt="Project 1">
         <div class="card-content">
@@ -104,7 +128,7 @@
         </div>
     </div>
     <div class="portfolio-card">
-        <img src="images/danish.jpg" alt="Project 4">
+        <img src="New folder/danish.jpg" alt="Project 4">
         <div class="card-content">
             <h3>Quantum Computing</h3>
             <p> Quantum algorithms using qubits to outperform classical computation.</p>
@@ -127,11 +151,11 @@
             <a href="https://github.com/danishcorder/Eigen-values-vectors" target="_blank">View Project</a>
         </div>
     </div>
-</section>
+   
         <!-- Contact Section -->
-        <section id="contact" class="contact-section">
-            <h2>Get in Touch</h2>
-            <form>
+    <section id="contact" class="contact-section">
+   <h2>Get in Touch</h2>
+     <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" value="Your Name">
                 
@@ -162,6 +186,6 @@
 
     <footer>
         <p>&copy; 2025 Muhammad Danish. All rights reserved.</p>
-    </footer>
+    </footer>     
 </body>
 </html>
