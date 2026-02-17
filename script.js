@@ -11,9 +11,16 @@ themeToggle.addEventListener('click', () => {
 // Menu Toggle Functionality
 const menuToggle = document.getElementById('menu-toggle');
 const sidebar = document.getElementById('sidebar');
+const closeMenu = document.getElementById('close-menu');
 
 menuToggle.addEventListener('click', () => {
     sidebar.classList.toggle('open');
+    menuToggle.style.display = sidebar.classList.contains('open') ? 'none' : 'block';
+});
+
+closeMenu.addEventListener('click', () => {
+    sidebar.classList.remove('open');
+    menuToggle.style.display = 'block';
 });
 
 // Scroll Animations using Intersection Observer
@@ -94,3 +101,20 @@ function typeWriter() {
 }
 
 setTimeout(typeWriter, 1000);
+
+// AI Assistant Chat Integration
+const assistantInput = document.getElementById('assistant-input');
+const assistantBtn = document.getElementById('assistant-btn');
+
+if (assistantInput && assistantBtn) {
+    const openAssistant = () => {
+        const query = assistantInput.value.trim();
+        const url = 'https://danishcorder.github.io/Muhammad-danish-AI-Assiatant/' + (query ? '?q=' + encodeURIComponent(query) : '');
+        window.open(url, '_blank');
+    };
+
+    assistantBtn.addEventListener('click', openAssistant);
+    assistantInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') openAssistant();
+    });
+}

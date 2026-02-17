@@ -8,23 +8,36 @@
 </head>
 <body class="light">
     <button id="menu-toggle" class="menu-toggle">☰</button>
- <header>
+ <header id="home">
         <h1>Muhammad Danish</h1>
         <p>Showcasing My Work and Projects</p>
 
     </header>
 
     <nav id="sidebar">
+        <button id="close-menu" class="close-menu">&times;</button>
         <ul>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><button id="theme-toggle">Toggle Theme</button></li>
         </ul>
     </nav>
 
     <main>
+        <!-- AI Assistant Section -->
+        <section id="ai-assistant" class="ai-assistant-section">
+            <h2>Ask My AI Portfolio Assistant</h2>
+            <p>Explore my interactive AI assistant designed to answer recruiter-focused questions about my work and background.</p>
+            <div class="chat-preview">
+                <input type="text" id="assistant-input" placeholder="Ask about my projects, skills, or experience...">
+                <button id="assistant-btn">Open AI Assistant</button>
+            </div>
+        </section>
+
         <!-- About Me Section -->
         <section id="about" class="about-section">
             <h2>About Me</h2>
@@ -51,15 +64,45 @@
             </div>
         </section>
 
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <h2>Services</h2>
+            <p>I offer web development, data analysis, AI integration, and consulting services to help bring your ideas to life.</p>
+        </section>
+
         <!-- Portfolio Section -->
-       <section id="portfolio" class="portfolio">
+       <section id="projects" class="portfolio">
     <h2>Projects</h2>
+    <div class="portfolio-card">
+        <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="AI Assistant">
+        <div class="card-content">
+            <h3>Muhammad Danish AI Portfolio Assistant</h3>
+            <p>An interactive AI-powered portfolio chatbot that answers recruiter-focused questions about projects, skills, education, and career goals.</p>
+            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/Muhammad-danish-AI-Assiatant/', '_blank')">Live Demo</button>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-card">
+        <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Database Management">
+        <div class="card-content">
+            <h3>Database Management System</h3>
+            <p>A structured DBMS project demonstrating database architecture, SQL concepts, and organized data handling principles.</p>
+            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, DBMS Concepts</p>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/DatabaseManagment/index.html', '_blank')">Live Demo</button>
+            </div>
+        </div>
+    </div>
     <div class="portfolio-card">
         <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project 5">
         <div class="card-content">
             <h3>Top 2025 Level Site</h3>
             <p>A cutting-edge website showcasing advanced web technologies and futuristic design.</p>
-            <a href="https://danishcorder.github.io/Top-2025-level-site/" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/Top-2025-level-site/', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
@@ -67,7 +110,9 @@
         <div class="card-content">
             <h3>World Wonders</h3>
             <p>An interactive exploration of the world's most amazing landmarks and natural wonders.</p>
-            <a href="https://danishcorder.github.io/World-Wonders/" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/World-Wonders/', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
@@ -75,7 +120,9 @@
         <div class="card-content">
             <h3>Data Dashboard</h3>
             <p>A comprehensive data dashboard for visualizing and analyzing key metrics and insights.</p>
-            <a href="https://danishcorder.github.io/DatadashBoard2/" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/DatadashBoard2/', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
@@ -83,7 +130,9 @@
         <div class="card-content">
             <h3>My Portfolio Website</h3>
             <p>Showcasing my web development skills and projects.</p>
-            <a href="https://my-portfolio-website-ochre-eight.vercel.app/" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://my-portfolio-website-ochre-eight.vercel.app/', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
@@ -91,7 +140,9 @@
         <div class="card-content">
             <h3>AI Agent CLine</h3>
             <p>A platform leveraging AI and technology for intelligent decision-making.</p>
-            <a href="https://danishcorder.github.io/cline/" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/cline/', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
 
@@ -100,7 +151,9 @@
         <div class="card-content">
             <h3>EventX 2025</h3>
             <p>EventX 2025 is the premier tech and innovation gathering.</p>
-            <a href="https://danishcorder.github.io/event-website/" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/event-website/', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
@@ -108,59 +161,76 @@
         <div class="card-content">
             <h3>Python Project</h3>
             <p>Implementing Python for data analysis tasks.</p>
-            <a href="https://github.com/danishcorder/InventaryManagmentSystem" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://github.com/danishcorder/InventaryManagmentSystem', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
-        <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*7xKETjZiHZW30m0X61OmCg.jpeg" alt="Project 4">
+        <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*7xKETjZiHZW30m0X61OmCg.jpeg" alt="Git & GitHub">
         <div class="card-content">
             <h3>Git & GitHub</h3>
             <p>Version control and collaboration using Git and GitHub.</p>
-            <a href="https://github.com/danishcorder" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://github.com/danishcorder', '_blank')">Live Demo</button>
+            </div>
         </div>
             </div>
     <div class="portfolio-card">
-        <img src="https://techspark.co/wp-content/uploads/2021/11/techspark-contact-us--uai-1192x510.jpg" alt="Project 4">
+        <img src="https://techspark.co/wp-content/uploads/2021/11/techspark-contact-us--uai-1192x510.jpg" alt="My TeckSparks Team">
         <div class="card-content">
             <h3>My TeckSparks Team</h3>
             <p>We are a team of passionate and skilled professionals working together.</p>
-            <a href="https://danishcorder.github.io/Team-webpage/" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://danishcorder.github.io/Team-webpage/', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
-        <img src="New folder/danish.jpg" alt="Project 4">
+        <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Quantum Computing">
         <div class="card-content">
             <h3>Quantum Computing</h3>
             <p> Quantum algorithms using qubits to outperform classical computation.</p>
-            <a href="https://github.com/danishcorder/Entanglment_in_QC" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://github.com/danishcorder/Entanglment_in_QC', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
     <div class="portfolio-card">
-        <img src="https://badigitalhub.com/wp-content/uploads/2025/10/API-KEY-1-1024x1024.png" alt="Project 4">
+        <img src="https://badigitalhub.com/wp-content/uploads/2025/10/API-KEY-1-1024x1024.png" alt="API Key Generator">
         <div class="card-content">
             <h3>API Key Generator</h3>
             <p> Securely generate and manage API keys for authentication.</p>
-            <a href="https://github.com/danishcorder/api_key_generator" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://github.com/danishcorder/api_key_generator', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
        <div class="portfolio-card">
-        <img src="https://d4.alternativeto.net/mIaL7juUYuEL5hUX4KB1WlvzCSevofFdiznECjxVtDc/rs:fit:280:280:0/g:ce:0:0/exar:1/YWJzOi8vZGlzdC9pY29ucy9zY2llbnRvcHlfMTgzNzk2LnBuZw.png" alt="Project 4">
+        <img src="https://d4.alternativeto.net/mIaL7juUYuEL5hUX4KB1WlvzCSevofFdiznECjxVtDc/rs:fit:280:280:0/g:ce:0:0/exar:1/YWJzOi8vZGlzdC9pY29ucy9zY2llbnRvcHlfMTgzNzk2LnBuZw.png" alt="Scientopy">
         <div class="card-content">
             <h3>Scientopy</h3>
             <p>A Python-based tool for scientific data analysis and computation.</p>
-            <a href="https://github.com/danishcorder/Eigen-values-vectors" target="_blank">View Project</a>
+            <div class="buttons">
+                <button onclick="window.open('https://github.com/danishcorder/Eigen-values-vectors', '_blank')">Live Demo</button>
+            </div>
         </div>
     </div>
    
         <!-- Contact Section -->
     <section id="contact" class="contact-section">
    <h2>Get in Touch</h2>
+   <div class="contact-info">
+       <p><strong>Email:</strong> <a href="mailto:muhammaddanish2327@gmail.com">muhammaddanish2327@gmail.com</a></p>
+       <p><strong>GitHub:</strong> <a href="https://github.com/danishcorder" target="_blank">github.com/danishcorder</a></p>
+       <p><strong>Portfolio:</strong> <a href="https://muhammaddanish-sage.vercel.app/" target="_blank">muhammaddanish-sage.vercel.app</a></p>
+   </div>
      <form>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" value="Your Name">
+                <input type="text" id="name" name="name" placeholder="Your Name">
                 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" value="E-mail">
+                <input type="email" id="email" name="email" placeholder="E-mail">
                 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
@@ -187,5 +257,6 @@
     <footer>
         <p>&copy; 2025 Muhammad Danish. All rights reserved.</p>
     </footer>     
+    <script src="script.js"></script>
 </body>
 </html>
