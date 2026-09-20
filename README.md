@@ -1,28 +1,49 @@
-# Muhammad Danish — Portfolio (Updated)
+# Muhammad Danish — Portfolio Final
 
-A recruiter-focused portfolio centered on Data Analytics, Machine Learning, Python automation, industrial projects, and applied mathematics.
+A production-ready, multi-page static portfolio focused on Data Analytics, Machine Learning, Python Automation, industrial technology, software development and applied mathematics.
 
-## Main improvements
+## Pages
 
-- Stronger Data/ML/Automation positioning in the hero section
-- Featured real-world projects instead of generic filler projects
-- Industrial internship/experience section
-- Grouped technical skills for recruiter scanning
-- Education and HEC scholarship section
-- AI Portfolio Assistant integration with suggested recruiter prompts
-- Responsive mobile navigation
-- Light/dark theme with saved preference
-- Better SEO metadata, Open Graph tags, canonical URL, and Person schema
-- Dynamic footer year
-- No stock project images; project cards use lightweight CSS visuals
+- `index.html` — Home
+- `about.html` — About
+- `experience.html` — Experience
+- `projects.html` — Projects
+- `skills.html` — Skills
+- `education.html` — Education
+- `contact.html` — Contact
 
-## Files
+All non-Home primary navigation links open in a new browser tab, as requested.
 
-- `index.html` — site content and SEO
-- `style.css` — full responsive design
-- `script.js` — navigation, theme, animations, active sections, AI assistant
-- `google4c7c5eb12d65ad46.html` — existing Google verification file
+## Project visuals
+
+All project imagery is stored locally in `assets/images/` as optimized WebP files. The visuals are purpose-built dashboard/mockup representations instead of unrelated stock photos.
+
+## Features
+
+- Responsive layouts from small mobile screens through large desktops
+- Dark/light theme with `localStorage` persistence
+- Mobile navigation
+- Semantic HTML, skip links, visible keyboard focus and meaningful alt text
+- `prefers-reduced-motion` support
+- Unique page titles and descriptions
+- Canonical tags, Open Graph, Twitter cards and Person structured data
+- `robots.txt` and `sitemap.xml`
+- Local, optimized project visuals to reduce external requests
+- No build step or framework required
 
 ## Deploy
 
-Upload these files to the root of the GitHub repository / Vercel project. No build process is required.
+### GitHub Pages
+Upload the full project to the repository root and configure Pages to serve from the default branch/root.
+
+### Vercel
+Import the repository as a static site. No build command is required.
+
+## Main public links
+
+- GitHub: https://github.com/danishcorder
+- LinkedIn: https://www.linkedin.com/in/muhammad-danish-0b3727376
+- Portfolio: https://muhammaddanish-sage.vercel.app/
+- ML Atlas: https://danishcorder.github.io/machine-learning-atlas/
+- TexGauge IQ: https://danishcorder.github.io/TexGuage/index.html
+- AI Portfolio Assistant: https://danishcorder.github.io/Muhammad-danish-AI-Assiatant/
