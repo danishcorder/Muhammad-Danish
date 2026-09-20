@@ -1,261 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="Muhammad Danish — BS Mathematics student building data analytics, machine learning, Python automation, and industrial software solutions." />
+  <meta name="keywords" content="Muhammad Danish, Data Analyst, Machine Learning, Python, SQL, Data Analytics, Automation, Mathematics, Pakistan" />
+  <meta name="author" content="Muhammad Danish" />
+  <link rel="canonical" href="https://muhammaddanish-sage.vercel.app/" />
+
+  <meta property="og:title" content="Muhammad Danish | Data, ML & Automation Portfolio" />
+  <meta property="og:description" content="Mathematics + Data Analytics + Machine Learning + Python Automation. Explore real-world industrial and AI projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://muhammaddanish-sage.vercel.app/" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/198791507?v=4" />
+
+  <title>Muhammad Danish | Data Analyst • ML Developer • Python Automation</title>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Danish",
+    "url": "https://muhammaddanish-sage.vercel.app/",
+    "image": "https://avatars.githubusercontent.com/u/198791507?v=4",
+    "jobTitle": "Data Analyst and Machine Learning Developer",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Bahauddin Zakariya University"
+    },
+    "sameAs": [
+      "https://github.com/danishcorder",
+      "https://www.linkedin.com/in/muhammad-danish-0b3727376"
+    ],
+    "knowsAbout": ["Python", "SQL", "Machine Learning", "Data Analytics", "Automation", "Mathematics"]
+  }
+  </script>
 </head>
-<body class="light">
-    <button id="menu-toggle" class="menu-toggle">☰</button>
- <header id="home">
-        <h1>Muhammad Danish</h1>
-        <p>Showcasing My Work and Projects</p>
-    </header>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <nav id="sidebar">
-        <button id="close-menu" class="close-menu">&times;</button>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><button id="theme-toggle">Toggle Theme</button></li>
-        </ul>
+  <header class="site-header" id="home">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Muhammad Danish home">
+        <span class="brand-mark">MD</span>
+        <span>Muhammad Danish</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">◐</button>
     </nav>
+  </header>
 
-    <main>
-        <!-- AI Assistant Section -->
-        <section id="ai-assistant" class="ai-assistant-section">
-            <h2>Ask My AI Portfolio Assistant</h2>
-            <p>Explore my interactive AI assistant designed to answer recruiter-focused questions about my work and background.</p>
-            <div class="chat-preview">
-                <input type="text" id="assistant-input" placeholder="Ask about my projects, skills, or experience...">
-                <button id="assistant-btn">Open AI Assistant</button>
-            </div>
-        </section>
+  <main id="main">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">BS Mathematics • Data • AI • Automation</span>
+        <h1>I turn data and real-world problems into <span>working systems.</span></h1>
+        <p class="hero-lead">
+          I’m Muhammad Danish, a BS Mathematics student focused on Data Analytics,
+          Machine Learning, Python automation, and practical software for industrial and business problems.
+        </p>
 
-        <!-- About Me Section -->
-        <section id="about" class="about-section">
-            <h2>About Me</h2>
-            <p>Hi, I'm Muhammad Danish, a passionate web developer with a strong background in mathematics and critical thinking. I specialize in creating stunning and functional websites using HTML, CSS, JavaScript, Python, and C. I'm also skilled in data analysis, Maple, MS Office, and Git/GitHub.</p>
-            <img src="https://avatars.githubusercontent.com/u/198791507?v=4" alt="My Profile Picture">
-        </section>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Featured Work</a>
+          <a class="btn btn-secondary" href="https://github.com/danishcorder" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/muhammad-danish-0b3727376" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills-section">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card"><h3>HTML</h3></div>
-                <div class="skill-card"><h3>CSS</h3></div>
-                <div class="skill-card"><h3>JavaScript</h3></div>
-                <div class="skill-card"><h3>Git & GitHub</h3></div>
-                <div class="skill-card"><h3>Web Development</h3></div>
-                 <div class="skill-card"><h3>Maple</h3></div>
-                <div class="skill-card"><h3>Python </h3></div>
-                <div class="skill-card"><h3>MS Office</h3></div>
-                 <div class="skill-card"><h3>Data Analysis</h3></div>
-               
-                
-                
-            </div>
-        </section>
+        <div class="hero-proof" aria-label="Professional focus areas">
+          <div><strong>Python + SQL</strong><span>analytics & automation</span></div>
+          <div><strong>ML & Forecasting</strong><span>decision support</span></div>
+          <div><strong>Industrial Projects</strong><span>real workflows</span></div>
+        </div>
+      </div>
 
-        <!-- Services Section -->
-        <section id="services" class="services-section">
-            <h2>Services</h2>
-            <p>I offer web development, data analysis, AI integration, and consulting services to help bring your ideas to life.</p>
-        </section>
+      <aside class="hero-card reveal" aria-label="Professional snapshot">
+        <div class="portrait-wrap">
+          <img src="https://avatars.githubusercontent.com/u/198791507?v=4" alt="Muhammad Danish" />
+          <span class="status-dot" title="Open to opportunities"></span>
+        </div>
+        <div class="hero-card-copy">
+          <p class="mini-label">Current focus</p>
+          <h2>Data Analyst • ML Developer • Python Automation</h2>
+          <p>Building research-worthy student projects with practical business and industrial value.</p>
+          <div class="stack-chips">
+            <span>Python</span><span>SQL</span><span>ML</span><span>Excel</span><span>FastAPI</span>
+          </div>
+        </div>
+      </aside>
+    </section>
 
-        <!-- Portfolio Section -->
-       <section id="projects" class="portfolio">
-    <h2>Projects</h2>
-    <div class="portfolio-card">
-        <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="AI Assistant">
-        <div class="card-content">
-            <h3>Muhammad Danish AI Portfolio Assistant</h3>
-            <p>An interactive AI-powered portfolio chatbot that answers recruiter-focused questions about projects, skills, education, and career goals.</p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/Muhammad-danish-AI-Assiatant/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Database Management">
-        <div class="card-content">
-            <h3>Database Management System</h3>
-            <p>A structured DBMS project demonstrating database architecture, SQL concepts, and organized data handling principles.</p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, DBMS Concepts</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/DatabaseManagment/index.html', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project 5">
-        <div class="card-content">
-            <h3>Top 2025 Level Site</h3>
-            <p>A cutting-edge website showcasing advanced web technologies and futuristic design.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/Top-2025-level-site/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project 6">
-        <div class="card-content">
-            <h3>World Wonders</h3>
-            <p>An interactive exploration of the world's most amazing landmarks and natural wonders.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/World-Wonders/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project 7">
-        <div class="card-content">
-            <h3>Data Dashboard</h3>
-            <p>A comprehensive data dashboard for visualizing and analyzing key metrics and insights.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/DatadashBoard2/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://cdn.pixabay.com/photo/2022/03/15/18/06/portfolio-7070886_1280.png" alt="Project 1">
-        <div class="card-content">
-            <h3>My Portfolio Website</h3>
-            <p>Showcasing my web development skills and projects.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://my-portfolio-website-ochre-eight.vercel.app/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F214gxm1h9nxjfb181hio.png" alt="Project 1">
-        <div class="card-content">
-            <h3>AI Agent CLine</h3>
-            <p>A platform leveraging AI and technology for intelligent decision-making.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/cline/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
+    <section class="section section-narrow" id="about">
+      <div class="section-heading reveal">
+        <span class="eyebrow">About</span>
+        <h2>Mathematics gives me the foundation. Technology lets me apply it.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="panel reveal">
+          <p>
+            I study BS Mathematics at Bahauddin Zakariya University and build practical technology around
+            data, machine learning, automation, and software development. My goal is not simply to make demos;
+            I like turning messy workflows into measurable, usable systems.
+          </p>
+          <p>
+            My recent work includes textile quality monitoring, material requisition intelligence,
+            production forecasting, ML learning tools, database systems, and workflow automation.
+          </p>
+        </article>
+        <aside class="panel facts reveal">
+          <div><span>Based in</span><strong>Punjab, Pakistan</strong></div>
+          <div><span>Target roles</span><strong>Data / ML / Python</strong></div>
+          <div><span>Academic base</span><strong>BS Mathematics</strong></div>
+          <div><span>Approach</span><strong>Build • Measure • Improve</strong></div>
+        </aside>
+      </div>
+    </section>
 
-    <div class="portfolio-card">
-        <img src="data:image/jpeg;base64,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" alt="Project 2">
-        <div class="card-content">
-            <h3>EventX 2025</h3>
-            <p>EventX 2025 is the premier tech and innovation gathering.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/event-website/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://cdn.pixabay.com/photo/2019/05/14/17/07/web-development-4202909_1280.png" alt="Project 3">
-        <div class="card-content">
-            <h3>Python Project</h3>
-            <p>Implementing Python for data analysis tasks.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://github.com/danishcorder/InventaryManagmentSystem', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*7xKETjZiHZW30m0X61OmCg.jpeg" alt="Git & GitHub">
-        <div class="card-content">
-            <h3>Git & GitHub</h3>
-            <p>Version control and collaboration using Git and GitHub.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://github.com/danishcorder', '_blank')">Live Demo</button>
-            </div>
-        </div>
-            </div>
-    <div class="portfolio-card">
-        <img src="https://techspark.co/wp-content/uploads/2021/11/techspark-contact-us--uai-1192x510.jpg" alt="My TeckSparks Team">
-        <div class="card-content">
-            <h3>My TeckSparks Team</h3>
-            <p>We are a team of passionate and skilled professionals working together.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://danishcorder.github.io/Team-webpage/', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Quantum Computing">
-        <div class="card-content">
-            <h3>Quantum Computing</h3>
-            <p> Quantum algorithms using qubits to outperform classical computation.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://github.com/danishcorder/Entanglment_in_QC', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-card">
-        <img src="https://badigitalhub.com/wp-content/uploads/2025/10/API-KEY-1-1024x1024.png" alt="API Key Generator">
-        <div class="card-content">
-            <h3>API Key Generator</h3>
-            <p> Securely generate and manage API keys for authentication.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://github.com/danishcorder/api_key_generator', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-       <div class="portfolio-card">
-        <img src="https://d4.alternativeto.net/mIaL7juUYuEL5hUX4KB1WlvzCSevofFdiznECjxVtDc/rs:fit:280:280:0/g:ce:0:0/exar:1/YWJzOi8vZGlzdC9pY29ucy9zY2llbnRvcHlfMTgzNzk2LnBuZw.png" alt="Scientopy">
-        <div class="card-content">
-            <h3>Scientopy</h3>
-            <p>A Python-based tool for scientific data analysis and computation.</p>
-            <div class="buttons">
-                <button onclick="window.open('https://github.com/danishcorder/Eigen-values-vectors', '_blank')">Live Demo</button>
-            </div>
-        </div>
-    </div>
-   
-        <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-   <h2>Get in Touch</h2>
-   <div class="contact-info">
-       <p><strong>Email:</strong> <a href="mailto:muhammaddanish2327@gmail.com">muhammaddanish2327@gmail.com</a></p>
-       <p><strong>GitHub:</strong> <a href="https://github.com/danishcorder" target="_blank">github.com/danishcorder</a></p>
-       <p><strong>Portfolio:</strong> <a href="https://muhammaddanish-sage.vercel.app/" target="_blank">muhammaddanish-sage.vercel.app</a></p>
-   </div>
-     <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Your Name">
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="E-mail">
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit" class="btn-primary">Submit</button>
-            </form>
-            <div class="social-links">
-                <a href="https://github.com/danishcorder" target="_blank">
-                    <img src="data:image/jpeg;base64,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" alt="GitHub Profile" class="social-icon">
-                </a>
-                <a href="https://www.linkedin.com/in/muhammad-danish-0b3727376/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQ5r30B%2BGSLmbB4gH0Xliag%3D%3D" target="_blank">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAbFBMVEUAfrv///8AfLoAcLXE2uopgbzI2OnR4u5GjsI0g73o8fcAdbcAbbPN3+30+PuQt9ebwNzh6/S80+ZalsZ9rtISgr0AZbBdnso0jMKkxN4AarJvpc6MsdTZ5/FpncqwzeN/qdBbkcRLlsd3oswcWK3cAAAFJElEQVR4nO2dbXOqOhCAkwUKJsqrFJUi1v7//3iDHE9rlQRPwshy9/nQmc7IwDNhIdkkC+MXEmCIgaS3YJe/KeCWgfRbJl+hdlE2q/wqkxXy1VdjiyyyXiZO0LsomyS+yIS4A6YHIOxk4u0CGkY1zTZWMplcQMOoppGZkkm9V1+HG7xUyZSLaBjVNCVn4v3VV+GKd8Hyhdxl6j7L2RJeMj0yYdVCQkYFTcV2y5HZsfLV1+COBakQxOyArqMNbAlPP+URBKvVKoCOV1+NFZJFxyRvhMg27bbYYdaR7LgX/JtNEqG1kcU+5rc0SYmyTwewbfg9/hlhdxtY8rtZerIanQ2w9LEL5+KIzEbdYwMqnU2EK25kMezCeYhKBoJMJ8Pb9auv8AlkonXhosbTNiCHgv9KjieDKDXR35NVaJrmoI+YDjzJHWl04S2WgbeszDLhGUnQeKlZRhyR3GdebpbhJyQy6w3JzJO1vyAZrzW7xF9IZMwdgG4NAZJHM+zMMj6aWYSDqZ/J+R5NmsYcNDGW+Ff3WbScu0w9AkxvmhRNw6im+dS7hJjS6ADacXOMaNTMulVpuhutPbz6+p5Dfg6PNn1MuZkL8vgo03xxQZbQ7JDF28N4aT1Ewf8XuUrFnUu4xZNkugHg+GuCpkkjpC5dMpAdE//qI9oT3omzDgBYRUW93W6rzyjAPKXZA9+8+lIIgiAI4ilAep637vA8KRG/yEAe5Hm7z/2N4i3fJ/VufcDZ8/MOUdrE8Y9+rPpHhGl0cD/CuLT/MA9SAPojbg+ANWuH8oxxWx7cZhggSH0d+7vTwU53RP4zAwLyrJ9myCq34RPoT/d2N3KGKNT8/sf2NoDCPGOS1YFDm6lkAKK7BXkP8St3jTORDMBpKE3yG5E6a5xpZICNa5Ye39VKsElkJBszv/hN42hT7BQyMhgz8fsTcXZiM4GMDHS/GLBxcqe5lwH2vIt6RrtYeexexjjl85jQQW/NucxhzBKWRzjYteha5uP0xDP5BmE/e+papv2XgOnZWE+fupa5z8CPJ52ZjBWN7Tq9OcnwxLLPOSuZJlqQDK+XJOMHC5LhdvVxZiZjV7tkZjJ2e1xmJsMXJWP13pxaJhaZEE/0Pa3qykwp07Tpx6k+1vUp2Y8d5IQ2y3Wmk8lPRSmvQPQ1bpwT2xSWmUomrFY3qVeQwdeoTNoMWyYN7vqMIKMxCSibQc00MvXD6QrYjbCx2RY2iczQPmI54libPsAUMvfzIFc8c4bA5tk8gUwz3FsEaXymtfOS0Q1KZGVKEthknNzL6MtcGlOENotc3ct8aCO4q+ynZTMnmUa/3wYYJpnW8NJbGxp2VjKm7cOmvaFzkslMe1RljUcmNPWtoMQj4xunWQ54ZMzvvHf942xOMubeiKEGwZxk9kYZw7N5RjIjSkMb9iDjkvEWJaMfBZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZAMyZDM/1amFRri+2XKEPmaAzLzljFPe0ZhsxkIum/oDvOg2ID+iBG1yp4+4zM6Wp4+YooTEgTxr2D5UOEISobo0z4GYMeq5chUDM/XPU3IhDkoTzcTvJwJm6oUs+JdMF4uJGig5MyulMuM8FIlk+GsJ/4bkJmSie1KU82FbvM94zxcQscaQI1wWTeWXUDUeEl8keGZo3rIL0QW3cbbTsZQ1wIBsLqkQS4yPMUdNgB9SYRehie4Zf58jvE/ha130LWQ03MAAAAASUVORK5CYII=" alt="LinkedIn Profile" class="social-icon">
-                </a>
-                <a href="https://www.youtube.com/@MuhammadDanish-xu5fh" target="_blank">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAclBMVEXEHyT39/f////BAAD6///EHCH4+/v17u/DEhjLOT7DGB7jqKrDFRvCDRX++/vBAAfdjo/bhIbIMTXYcnXosrT13N3OUVTCBA/88PH05ufMRkn99vbGJSrz1dbvyMnelpjjn6DSX2LZfX7WZ2vqvL3QV1vBzfbvAAAKT0lEQVR4nO2d6XqjOgyGaRxTFpt9DxAg4f5v8UDSNhvIYMwyPOebfzPTlDc2kizLsnQQKSPTXZWElGgYY6lHzT9phJpEdfXMEPrrJVEfZEQNSGqikPRBvIuEyEwboEgYkRiYU5zpZYpM0jscPYNETJSWehafhDyGCJg4L0qKQm0cyK+0ENGyyGMBDzIZ5uR7lUN5SX55qFN5/uThmQgT5VZNzMGvSb+aD6mtPFoRJvJcVVFGvid9woqiut4knAkwp6J2lLGvPIhDFKcsJkw2bhjDqzU66U3pkqZopcdtqjlhjDygIgflIUxokHPicMEYWYnoHCR3UVTyhQYcMEZsSeEso/IrHEpWzIEzHibSVST8XXmXhlR9vGEbC2NkVTjjDHuIhtXouTYSJtITNOsMewijZOzgjIPJKqwsg9JKwVU2G0zkBcrsb8uzNBqMCglGwESWIyp0GSpMU2sEzXAY/6ItOix3adrFFw+TO3ThYbkLUycXDaOjBd/8VylIFwpj2EsZ5C5hZA8LpQfBxBVaD6WVWQ1aVQ+Bid01x6UVRu4QmgEw/mVpi9xBQ9wBRo0Nk13mWbiMpbmwowEmTFauY5LfhWnJpGHB+PUWxqUVJjVrpjFg4nLeZdgY4bBkWAEGTGmujfAss/zih5GDlf3Lu1Ag88I0fn/tp38XsqHVJwBjnLfzvvwKh2eABoDxpBVCfpY0yeOByRMB+XDxIkn/iqAXxi8XScKMFy173U0fTGRvxVm+CxO7byXdA3Mq0g2+MHdpad9OQQ9Mlm7yhbmLpD1RWjdMXIdrPzGkMOiOazphDGtz3vJVyOr0Np0w+dorS5Yw6rTPXTCRulGr/BBVuyxaF8zWJ1krZA2Dyddf8rOFlY6J9glz2qrrfxUtP53NJ4y+Vdf/Kkw+85wfMH6wYXf5LBJ8xGjvMIbVXyi2LWH84WzeYbKAJ0GO8a0ijpAwDE3TRANkms3/DZsfuf0sD40SvEc1bzCGPTCOwZqmEdo8+u+zUZqqalIH5eXi2pVtF+ezddZfVDR/mr8sznYj93Kp60BVHUrIH2DYFhFq2kC28H0N/QaTJ+yB0YiiEClVk+BS2edC9/LMj+PT1+lLluXjODU/IX+d4tjPck9vKKtLkKip1P4GdtSuvK/TXmFOFtPHEOIktVtccz+OvuTnh5K/OPX0HchyFPv5tXDrJCUsS4QV6wTA5A5jYIiS2Fff+Hl+3qcfQCbHXpUoDBzlbVPtBeZ0hgMZbKpW1pDMQvGm49HIbZWRH0LnUy9MFoDOH9PL9WsRkpvk4+nKyNrTV1/zDGPoYDJWU1x/MZIfnsyFa9pM3eiBiQLILmNixwuzNDRxBZqkMIh6YK7gDKWXpcflRuNfIJuEw2s3jOFCs4yo+XF5lsYQ5CpEY7pGJ0wMLZYxPq+B0tIUEvRcKO6EAe0ySZZ/YX5gIjAqQecuGAMcTuW8yiS70RTgg6lGB0wOvTGak60GI/sOZJ7NvAMG3FmipbHSLGtgjBry5cjugHGgQAhZqw1MM8/AdBFxPmEyMCxD1zVhrvCzZR8wFuj90Vq2rJUcgzCh9Q5zqqFZpoXrobQCj+eQ+vQGk4MWgyYrzrJmniWQBdD+VjW/MDqYVDDddWHAQAtj/Q3GBRd1aD2XeYOBF43EfYWJwVdGQt66MB4MU8cvMPA+OUbrRMx/MDkM85ul+YHRU+iVwchfF8YHd79wqr/AWOAs0zCHmxHomOQYrg8n9jNM5IKZDOJ8j3607/xb2GjK32CsJVE3eoLx4Qyzoo7/mr+DKjuIwpHB5clfkuYOk6sgeRhwwDg0OMeCaGQw1dIu6Z9gPND/S+Zl/EN9q5SQwDsKwTle4CSY4z1gjDO8qYA4AoDvZmZggspMRNbw6IK2GeN7FdoNJrLhFDOy+WDaQaXV93TDdmTUJCr32qAbTOzCuzI80cwPjKQhR5+Mw4hnpPBeXX+DYdWWIZ0fpvnawvI63rS/wugwzE8NmsQOZqbCSDh0rOw0BYcFoyTZAwY2ZlyL5u9n10CQWvgT5hpj4fxrm28wVyhn2MLkHH7m1c8puNRjbsMmw5Fm8/jXPxiPsSsrAKaZa6l75c1XsWCk0HvAMLjDbDpMu7/j2D7f4Mg5awvtD8YoYBiNCIFpP0g9c4WfcsbYfEaFMRRGEwTT7lUnOUeEI2eMM6IPmBOjwEzYyLSiqB6ftmbD3DbRB8GIG5lWoWnFI7fdZZ9RmfyAiRiRj5ZybAD2wzQRTuCNi3DYMLfgbBCMIxamnWuX/HsUDMutrwjTRji2/z/M9mDWnGb/kgHYlWle0mnicGanuWQ4o80dzvwLgSajQvEBs9QSgE5YAjDWM+hpPbOnxdmuls3/fELjZ492H6mmn72z/SUBd5WenTVxbi+cON/VlsauNpvY24AcMCK3AY9jtgF9uG5+6xu0yssG7a62zg82XNSg/UtFDfsqN2EENP9WIdCuSrR2VTy3r7LGXRWcbrsUGMyafZYCw0Xa0qpF2gzL/Fmkvenyedgyd5TP7+pgw76OnDAOA60X0Byz8YeBGMe0ivVgwNLe7mNa8AE6JYlWojnGYNzYfYCOcbRR4kg3iRGYoOg72ggfOlX+rUOnjOPAykrHgcEEZe9xYOZB7WqNg9pwB7z+g9qGDoY0GnWzeboz9LP4Lty8P+w9Qn/IwOi0bW7gnZZsbvB1vTCaGyQv3VpeYFj7gZg6dm6IyesxSY5GZqkmvHFkAm0nBjUEqbxYnr8hiOFfbXZDEBVoCDKsVUv616pFfmnVMuHxu1q1OFNbtUxqosPRQ+c+vDM10ZnS3khTHFUN6vJyubiVbZ/PVtveqCheOxyd265Htl217Y3KoE5UNaXUfLRvEtneiLPx1L3z1L3xVDi08VTbeYoSRZut8dS+WoLtqlnbvtro7avB4a5aT+6rKei+2rXuqpHuvlocb775dD2i+XS7Ftiw6xzZFrxt2L5ZmtEN23fVSn9flxzs6/qJfV0Msq8rW3Z1mc6+rjk6HL7qbV1AVU+4gGpnV4Pt6tK2fV2nt6+LDjdyBaUy5F7dATAHf0eXg27g2lbUGyiPhzmc7Pkvnu+XBvv9sTCHg05XWxGIvur4sK9LqFe7HpzMcT14e3F7uvTgNMNiDbqxeTTMIfICeFdetDQl8IbdpT0epokGKrzglecUV2yvzw9ziPRkKQeKUaIP8i7cMAcjq8JFjDQNq2yYd+GHaQdHnd+DakgdOyxcMAcjtqR5l2w4lKx47LDwwbRzrUQzzjWKytEzjB+mwckDOs8yBxMa5Fwo3DANjldr8HUqPGo+svQ4USbAtDsFtaOIHB5MFKfuy/DPDNOGBK6qiFqGYkVRXW+8CRMF0+DkVk1MARn25kNqK5+EMhmmmWy+XjkU7HXPlBZSp/L8CRNMEEyjOC9Kinh5tBDRsshHBMe9EgHTDE+c6WWKzLHmABMTpaWexZMH5SYxMI2MKNPd1ETh4BeIhMhMXT2LuE3xu4TB3GQ0QCppy/mAgrjbBY80JGoDIozjpv8A5xAb6fmjuhAAAAAASUVORK5CYII=" alt="YouTube Channel" class="social-icon">
-                </a>
-                <a href="https://www.instagram.com/mahardanish64" target="_blank">
-                    <img src="data:image/jpeg;base64,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" alt="Instagram Profile" class="social-icon">
-                </a>
-            </div>
-        </section>
-    </main>
+    <section class="section" id="experience">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Experience</span>
+        <h2>Industrial problems shaped my strongest projects.</h2>
+        <p>Hands-on exposure to spinning operations, quality workflows, forecasting, and digital process improvement.</p>
+      </div>
 
-    <footer>
-        <p>&copy; 2025 Muhammad Danish. All rights reserved.</p>
-    </footer>     
-    <script src="script.js"></script>
+      <article class="experience-card reveal">
+        <div class="experience-meta">
+          <span class="project-kicker">Industrial Internship</span>
+          <h3>Masood Spinning Mill / Mahmood Group</h3>
+          <p>Spinning operations, analytics & digitalization</p>
+        </div>
+        <div class="experience-points">
+          <div><strong>Quality monitoring</strong><span>Designed TexGauge IQ concepts around CV%, sample weights, G/Y% and Hank Roving workflows.</span></div>
+          <div><strong>Forecasting</strong><span>Worked on production forecasting and data-driven planning using Python analytics.</span></div>
+          <div><strong>Workflow digitization</strong><span>Studied manual requisition and reporting processes and proposed more traceable digital workflows.</span></div>
+          <div><strong>Data quality</strong><span>Handled inventory/master-data cleaning and duplicate normalization for operational datasets.</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Featured Projects</span>
+        <h2>Projects built around real problems—not filler.</h2>
+        <p>Selected work that best represents my direction in Data Analytics, AI/ML, automation, and applied software.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-visual visual-requisition">
+            <span>01</span><strong>MSM</strong><small>Requisition Intelligence</small>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-kicker">Flagship FYP</span>
+              <span class="project-state">In development</span>
+            </div>
+            <h3>Digital Material Requisition Intelligence System</h3>
+            <p>
+              An industrial requisition platform being extended with demand forecasting, anomaly detection,
+              delay prediction, analytics, and decision support while preserving the real operational workflow.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>SQL</span><span>Machine Learning</span><span>Forecasting</span><span>Analytics</span>
+            </div>
+            <div class="project-links"><a href="#contact">Discuss Project →</a></div>
+          </div>
+        </article>
+
+        <article class="project-card featured reveal">
+          <div class="project-visual visual-tex">
+            <span>02</span><strong>IQ</strong><small>Textile Quality</small>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-kicker">Industrial Analytics</span>
+              <span class="project-state">Prototype</span>
+            </div>
+            <h3>TexGauge IQ — Smart Quality Monitoring</h3>
+            <p>
+              A quality-monitoring system for Carding, Breaker, Finisher, and Simplex workflows with sample
+              statistics, CV%, G/Y%, Hank Roving ranges, pass/fail status, and real-time monitoring concepts.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>WebSocket</span><span>Statistics</span><span>Automation</span>
+            </div>
+            <div class="project-links">
+              <a href="https://danishcorder.github.io/TexGuage/index.html" target="_blank" rel="noreferrer">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-atlas">
+            <span>03</span><strong>ML</strong><small>Visual Learning Atlas</small>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-kicker">Machine Learning</span>
+              <span class="project-state">Live</span>
+            </div>
+            <h3>Machine Learning Atlas</h3>
+            <p>
+              A visual learning platform designed to make machine-learning concepts easier through structured
+              explanations, model pages, comparisons, datasets, and interactive learning experiences.
+            </p>
+            <div class="tags"><span>ML</span><span>Data Visualization</span><span>JavaScript</span><span>Education</span></div>
+            <div class="project-links">
+              <a href="https://danishcorder.github.io/machine-learning-atlas/" target="_blank" rel="noreferrer">Explore Atlas ↗</a>
+              <a href="https://github.com/danishcorder/machine-learning-atlas" target="_blank" rel="noreferrer">Repository ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-forecast">
+            <span>04</span><strong>365</strong><small>Production Forecast</small>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-kicker">Data Science</span>
+              <span class="project-state">Case study</span>
+            </div>
+            <h3>Production Forecasting System</h3>
+            <p>
+              A Python-based forecasting workflow developed from daily production data to support daily,
+              weekly, and monthly planning with trend analysis and forecast visualization.
+            </p>
+            <div class="tags"><span>Pandas</span><span>Forecasting</span><span>Matplotlib</span><span>EDA</span></div>
+            <div class="project-links"><a href="https://github.com/danishcorder" target="_blank" rel="noreferrer">View GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-water">
+            <span>05</span><strong>H₂O</strong><small>Delivery Management</small>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-kicker">Product System</span>
+              <span class="project-state">Prototype</span>
+            </div>
+            <h3>Water Delivery Management Platform</h3>
+            <p>
+              A multi-role product concept for administrators, riders, and customers with delivery records,
+              billing, route workflows, bottle balances, reporting, and operational tracking.
+            </p>
+            <div class="tags"><span>Dashboard</span><span>Workflow</span><span>Mobile UX</span><span>Operations</span></div>
+            <div class="project-links"><a href="#contact">Request Walkthrough →</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-ai">
+            <span>06</span><strong>AI</strong><small>Portfolio Assistant</small>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-kicker">AI Experience</span>
+              <span class="project-state">Live</span>
+            </div>
+            <h3>AI Portfolio Assistant</h3>
+            <p>
+              An interactive assistant that lets recruiters and visitors explore my projects, skills,
+              education, and career direction conversationally.
+            </p>
+            <div class="tags"><span>AI</span><span>JavaScript</span><span>Recruiter UX</span></div>
+            <div class="project-links">
+              <a href="https://danishcorder.github.io/Muhammad-danish-AI-Assiatant/" target="_blank" rel="noreferrer">Ask the Assistant ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="projects-footer reveal">
+        <p>Want to see experiments, web builds, database work, and smaller prototypes?</p>
+        <a class="btn btn-secondary" href="https://github.com/danishcorder" target="_blank" rel="noreferrer">Browse all GitHub work ↗</a>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Technical Toolkit</span>
+        <h2>Skills organized by the problems I solve.</h2>
+      </div>
+
+      <div class="skill-groups">
+        <article class="skill-group reveal"><span class="skill-icon">01</span><h3>Data & Analytics</h3><p>Python, Pandas, NumPy, SQL, Excel, EDA, dashboards, data cleaning, visualization</p></article>
+        <article class="skill-group reveal"><span class="skill-icon">02</span><h3>Machine Learning</h3><p>Regression, classification, forecasting, feature engineering, evaluation, anomaly detection concepts</p></article>
+        <article class="skill-group reveal"><span class="skill-icon">03</span><h3>Backend & Automation</h3><p>FastAPI, Flask, REST APIs, WebSocket, PySerial, Python automation, PyInstaller</p></article>
+        <article class="skill-group reveal"><span class="skill-icon">04</span><h3>Web & Product</h3><p>HTML, CSS, JavaScript, responsive UI, Git/GitHub, deployment, dashboard prototyping</p></article>
+        <article class="skill-group reveal"><span class="skill-icon">05</span><h3>Mathematical Foundation</h3><p>Statistics, linear algebra, calculus, mathematical modelling, analytical problem solving</p></article>
+        <article class="skill-group reveal"><span class="skill-icon">06</span><h3>AI Tools & Workflow</h3><p>AI-assisted development, prompt engineering, agent workflows, research and rapid prototyping</p></article>
+      </div>
+    </section>
+
+    <section class="section section-narrow" id="education">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Education & Recognition</span>
+        <h2>A quantitative academic base with practical technology work.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div>
+            <span>2023 — 2027</span>
+            <h3>BS Mathematics — Bahauddin Zakariya University</h3>
+            <p>Building depth in mathematical reasoning while applying Python, data analytics, statistics, and machine learning to practical problems.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div>
+            <span>Recognition</span>
+            <h3>HEC Need-Based Scholarship</h3>
+            <p>Recipient of the Higher Education Commission need-based scholarship during undergraduate study.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section ai-section" id="ai-assistant">
+      <div class="ai-copy reveal">
+        <span class="eyebrow">Interactive Portfolio</span>
+        <h2>Ask my AI instead of scrolling.</h2>
+        <p>Use a recruiter-style question and jump directly into my portfolio assistant.</p>
+        <div class="prompt-chips">
+          <button data-prompt="What are Muhammad Danish's strongest machine learning projects?">Best ML projects</button>
+          <button data-prompt="What industrial experience does Muhammad Danish have?">Industrial experience</button>
+          <button data-prompt="Why is Muhammad Danish a fit for a data analyst role?">Data analyst fit</button>
+        </div>
+      </div>
+      <div class="ai-box reveal">
+        <label for="assistant-input">Ask about my work</label>
+        <div class="assistant-row">
+          <input id="assistant-input" type="text" placeholder="e.g. Show me his Python and ML projects" />
+          <button id="assistant-btn" class="btn btn-primary">Ask AI ↗</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Interested in my work, a role, or a collaboration?</h2>
+        <p>I’m open to Data Analytics, AI/ML, Python development, automation, and related opportunities.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:muhammaddanish2327@gmail.com">Email Me</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/muhammad-danish-0b3727376" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a class="btn btn-secondary" href="https://github.com/danishcorder" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+        <p class="contact-email">muhammaddanish2327@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>Muhammad Danish</strong>
+      <span>Data • ML • Automation • Mathematics</span>
+    </div>
+    <p>© <span id="current-year"></span> Muhammad Danish. Built with purpose.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
