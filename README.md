@@ -30,6 +30,8 @@ All project imagery is stored locally in `assets/images/` as optimized WebP file
 - `robots.txt` and `sitemap.xml`
 - Local, optimized project visuals to reduce external requests
 - No build step or framework required
+- CV actions are intentionally shown as unavailable until a verified PDF is added at `assets/docs/Muhammad-Danish-CV.pdf`; the site does not expose a broken or fabricated download.
+- Projects without a public repository or demo use clearly labelled internal evidence and concept details.
 
 ## Deploy
 
