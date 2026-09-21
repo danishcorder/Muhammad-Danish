@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://muhammaddanish-sage.vercel.app/sitemap.xml

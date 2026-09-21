@@ -1,17 +1,49 @@
-# Muhammad Danish — Portfolio
+# Muhammad Danish — Portfolio Final
 
-A seven-page static portfolio for Muhammad Danish, BS Mathematics student focused on data analytics, machine learning, Python automation, AI, and applied software.
+A production-ready, multi-page static portfolio focused on Data Analytics, Machine Learning, Python Automation, industrial technology, software development and applied mathematics.
 
 ## Pages
 
-`index.html`, `about.html`, `experience.html`, `projects.html`, `skills.html`, `education.html`, and `contact.html` are ready to serve from any static host. No build process is needed for deployment. Navigation links to the six section pages open a new tab as requested.
+- `index.html` — Home
+- `about.html` — About
+- `experience.html` — Experience
+- `projects.html` — Projects
+- `skills.html` — Skills
+- `education.html` — Education
+- `contact.html` — Contact
 
-## Development
+All non-Home primary navigation links open in a new browser tab, as requested.
 
-Edit `build.mjs` for shared page content, SEO metadata, and project illustrations, then run `node build.mjs` to regenerate HTML and SVG files. Edit `style.css` for styling and `script.js` for the theme and mobile menu.
+## Project visuals
 
-The profile image comes from the photo already in the repository. Project images are labelled interface illustrations, not claimed screenshots of live products. Links to live projects are included only where a specific URL was provided.
+All project imagery is stored locally in `assets/images/` as optimized WebP files. The visuals are purpose-built dashboard/mockup representations instead of unrelated stock photos.
 
-## Deployment
+## Features
 
-Upload the repository root directly to GitHub Pages, Vercel, or another static host. Keep the `assets/images` folder beside the HTML files.
+- Responsive layouts from small mobile screens through large desktops
+- Dark/light theme with `localStorage` persistence
+- Mobile navigation
+- Semantic HTML, skip links, visible keyboard focus and meaningful alt text
+- `prefers-reduced-motion` support
+- Unique page titles and descriptions
+- Canonical tags, Open Graph, Twitter cards and Person structured data
+- `robots.txt` and `sitemap.xml`
+- Local, optimized project visuals to reduce external requests
+- No build step or framework required
+
+## Deploy
+
+### GitHub Pages
+Upload the full project to the repository root and configure Pages to serve from the default branch/root.
+
+### Vercel
+Import the repository as a static site. No build command is required.
+
+## Main public links
+
+- GitHub: https://github.com/danishcorder
+- LinkedIn: https://www.linkedin.com/in/muhammad-danish-0b3727376
+- Portfolio: https://muhammaddanish-sage.vercel.app/
+- ML Atlas: https://danishcorder.github.io/machine-learning-atlas/
+- TexGauge IQ: https://danishcorder.github.io/TexGuage/index.html
+- AI Portfolio Assistant: https://danishcorder.github.io/Muhammad-danish-AI-Assiatant/
