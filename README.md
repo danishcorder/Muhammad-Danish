@@ -1,28 +1,17 @@
-# Muhammad Danish — Portfolio (Updated)
+# Muhammad Danish — Portfolio
 
-A recruiter-focused portfolio centered on Data Analytics, Machine Learning, Python automation, industrial projects, and applied mathematics.
+A seven-page static portfolio for Muhammad Danish, BS Mathematics student focused on data analytics, machine learning, Python automation, AI, and applied software.
 
-## Main improvements
+## Pages
 
-- Stronger Data/ML/Automation positioning in the hero section
-- Featured real-world projects instead of generic filler projects
-- Industrial internship/experience section
-- Grouped technical skills for recruiter scanning
-- Education and HEC scholarship section
-- AI Portfolio Assistant integration with suggested recruiter prompts
-- Responsive mobile navigation
-- Light/dark theme with saved preference
-- Better SEO metadata, Open Graph tags, canonical URL, and Person schema
-- Dynamic footer year
-- No stock project images; project cards use lightweight CSS visuals
+`index.html`, `about.html`, `experience.html`, `projects.html`, `skills.html`, `education.html`, and `contact.html` are ready to serve from any static host. No build process is needed for deployment. Navigation links to the six section pages open a new tab as requested.
 
-## Files
+## Development
 
-- `index.html` — site content and SEO
-- `style.css` — full responsive design
-- `script.js` — navigation, theme, animations, active sections, AI assistant
-- `google4c7c5eb12d65ad46.html` — existing Google verification file
+Edit `build.mjs` for shared page content, SEO metadata, and project illustrations, then run `node build.mjs` to regenerate HTML and SVG files. Edit `style.css` for styling and `script.js` for the theme and mobile menu.
 
-## Deploy
+The profile image comes from the photo already in the repository. Project images are labelled interface illustrations, not claimed screenshots of live products. Links to live projects are included only where a specific URL was provided.
 
-Upload these files to the root of the GitHub repository / Vercel project. No build process is required.
+## Deployment
+
+Upload the repository root directly to GitHub Pages, Vercel, or another static host. Keep the `assets/images` folder beside the HTML files.
