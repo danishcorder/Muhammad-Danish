@@ -30,5 +30,6 @@ body.light-theme{--bg:#f8fafc;--bg-soft:#eef4fa;--card:#fff;--card-2:#f7fafc;--t
 .case-study{margin-top:20px;border:1px solid var(--line);border-radius:14px;background:var(--card-2)}.case-study summary{padding:14px 16px;cursor:pointer;font-weight:800;color:var(--cyan)}.case-study p{padding:0 16px 16px;margin:0;color:var(--muted);font-size:.9rem}
 .cv-unavailable{cursor:not-allowed;opacity:.8}.cv-unavailable small{margin-left:5px;color:var(--muted);font-size:.68rem;font-weight:650}
 .recognition-strip{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 26px;border:1px solid var(--line);border-radius:18px;background:var(--card-2);margin-bottom:34px}.recognition-strip p{margin:0;color:var(--muted)}
+.recognition-items{display:flex;flex-wrap:wrap;gap:12px 28px}.recognition-items p{display:grid}.recognition-items strong{color:var(--text);font-size:.92rem}.recognition-items span{font-size:.82rem}.education-card.degree-card{grid-column:1/-1}
 @media (max-width:1060px){.nav-links .active-page{padding:12px}.project-card>img{height:auto;min-height:0;aspect-ratio:16/9;object-fit:contain}}
 @media (max-width:780px){.recognition-strip{align-items:flex-start;flex-direction:column}}
