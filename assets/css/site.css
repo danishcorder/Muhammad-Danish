@@ -15,7 +15,8 @@ body.light-theme{--bg:#f8fafc;--bg-soft:#eef4fa;--card:#fff;--card-2:#f7fafc;--t
 .home-page .profile-frame img{width:100%;height:100%;aspect-ratio:1;border:6px solid var(--card);border-radius:50%;object-fit:cover;object-position:50% 50%}
 .home-page .status-card{position:relative;left:auto;bottom:auto;width:min(100%,390px);margin-top:-26px;z-index:2}
 .home-page .feature-card img{height:auto;object-fit:contain;background:#07111f}
-.profile-panel img{object-position:50% 28%}
+.split-layout{align-items:start}
+.profile-panel img{height:auto;aspect-ratio:4/3;object-position:50% 25%}
 
 @media (max-width:1060px){.home-page .hero{grid-template-columns:minmax(0,1fr) minmax(280px,.62fr);gap:36px}.home-page .hero-visual{padding:20px}}
 @media (max-width:780px){.home-page .hero{grid-template-columns:1fr;gap:42px;padding-top:54px;padding-bottom:66px}.home-page .hero-visual{width:100%;max-width:none;padding:18px 0 0}.home-page .profile-frame{width:min(78vw,330px)}.home-page .status-card{width:min(100%,390px);margin-top:-20px}.home-page .feature-card img{aspect-ratio:16/9}.profile-panel img{aspect-ratio:4/3;object-position:50% 26%}}
